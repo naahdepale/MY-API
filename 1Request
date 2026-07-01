@@ -1,0 +1,6 @@
+cURL
+
+curl --request GET \
+     --url 'https://api.render.com/v1/services?limit=3' \
+     --header 'Accept: application/json' \
+     --header 'Authorization: Bearer API_KEY_GOES_HERE'
